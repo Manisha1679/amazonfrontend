@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border-color: white;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #3f0207;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.75rem;
+  margin: 7px 10px 0 25px;
+}
+
+.add-second {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 10px 10px;
+}
+
+.nav-search {
+  display: flex;
+  background-color: #e69419;
+  height: 40px;
+  width: 620px;
+  margin: 0 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+.nav-search:hover {
+  border-color: #920f0f;
+}
+
+.select-input {
+  width: 800px;
+  font-size: 16px;
+}
+
+.select-search {
+  border-radius: 8px 0 0 8px;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  color: black;
+}
+
+.nav-one {
+  margin: 5px 15px 0 30px;
+  padding-bottom: 0;
+  font-size: 12px;
+}
+
+.nav-two {
+  margin: 0 15px 5px;
+  padding-top: 0;
+  font-weight: 700;
+}
+
+.nav-cart {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 5px 0;
+}
+
+.cart-image {
+  font-size: 28px;
+  margin: 5px 0 0 15px;
+}
+
+.cart-write {
+  margin: 0 15px 10px 0;
+  font-weight: 700;
+}
+
+.all-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #550310;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin-left: 0;
+}
+
+.customer-section {
+  width: 90%;
+  display: flex;
+  margin-left: 20px;
+}
+
+.customer-section p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.hero-section {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.amazon-info {
+  height: 35px;
+  width: 90%;
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+.items-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e9e1e1;
+}
+.box {
+  height: 350px;
+  width: 22%;
+  gap: 10px;
+  background-color: white;
+  padding: 0px 15px 15px 15px;
+  margin-top: 15px;
+}
+.card-img {
+  background-size: cover;
+  height: 250px;
+}
+.box-content p {
+  color: rgb(0, 81, 255);
+}
+.box-content h2 {
+  font-weight: 400;
+}
+footer {
+  margin-top: 15px;
+}
+.panel-section1 {
+  background-color: #920f0f;
+  color: white;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.panel-section2 {
+  background-color: #3f0207;
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.panel-section2 ul {
+  list-style: none;
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  margin-top: 15px;
+}
+.panel-section2 p {
+  margin: 0; /* Removes default margin */
+  padding: 0;
+  margin-bottom: 10px; /* Removes default padding */
+}
+.panel-section2 a {
+  display: block; /* Ensures each link starts on a new line */
+  color: white;
+  text-decoration: none; /* Removes underline */
+  margin-bottom: 5px; /* Optional spacing between links */
+}
+.panel-section2 a:hover {
+  text-decoration: underline;
+}
+.panel-section3 {
+  background-color: #3f0207;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img {
+  background-image: url("amazon_logo.png");
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+}
+.panel-section4 {
+  background-color: #1f0204;
+  color: white;
+  height: 75px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+.conditions-section {
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
